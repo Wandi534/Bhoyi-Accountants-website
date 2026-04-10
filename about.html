@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="About Bhoyi Accountants and the web services we provide, including accounting, tax, and professional website development.">
+    <meta name="keywords" content="Accounting, Tax, Web Development, Compliance, South Africa">
+    <meta name="author" content="Bhoyi Accountants">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8PRSD9W66"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y8PRSD9W66');
+    </script>
+    <!-- Schema Markup for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Bhoyi Accountants",
+      "description": "Professional accounting, tax, and compliance services for South African businesses, SMEs, PBOs, and individuals",
+      "image": "images/BHOYI2-LOGO.png",
+      "url": "https://bhoyiaccountants.co.za",
+      "telephone": "+27171705903",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Standerton",
+        "addressLocality": "Standerton",
+        "addressRegion": "Mpumalanga",
+        "postalCode": "2430",
+        "addressCountry": "ZA"
+      },
+      "areaServed": "South Africa",
+      "priceRange": "$$",
+      "servesCuisine": "Professional Services",
+      "sameAs": [
+        "https://www.facebook.com/bhoyiaccountants",
+        "https://www.linkedin.com/company/bhoyi-accountants"
+      ],
+      "knowsAbout": [
+        "Accounting Services",
+        "Tax Practitioners",
+        "Payroll Services",
+        "Independent Audit",
+        "Independent Review",
+        "Registrations and Secretarial Services"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+      }
+    }
+    </script>
+    <title>About Us | Bhoyi Accountants</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="logo-img">
+                <img src="images/BHOYI2-LOGO.png" alt="Bhoyi Accountants Logo" />
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+
+                    <li class="dropdown">
+                        <a href="services.html">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accounting.html">Accounting Services</a></li>
+                            <li><a href="secretarial.html">Secretarial Services</a></li>
+                            <li><a href="payroll.html">Payroll Services</a></li>
+                            <li><a href="audit.html">Independent Audit</a></li>
+                            <li><a href="review.html">Independent Review</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-page-section">
+        <div class="container">
+            <h2 class="section-title">About Bhoyi Accountants</h2>
+            <p class="lead">
+                Bhoyi Accountants is a registered South African financial services firm operating under Bhoyi
+                Accountants | Registration No: 2023/619819/07. Based in Standerton, we provide trusted accounting, tax,
+                payroll, and compliance services to individuals, SMEs, PBOs, and directors across the country.
+            </p>
+
+            <div class="about-box">
+                <h3>Our Mission</h3>
+                <p>
+                    We aim to simplify financial compliance for businesses and individuals by offering transparent,
+                    affordable, and expert services. Our work ensures legal accuracy and gives our clients peace of mind
+                    to focus on growth.
+                </p>
+            </div>
+
+            <div class="about-box">
+                <h3>Why Choose Us</h3>
+                <ul>
+                    <li>✔ Registered with SARS, CIPC, and other key institutions</li>
+                    <li>✔ Decades of combined experience in finance and compliance</li>
+                    <li>✔ Specialized services for PBOs, Non-Executive Directors, and SMEs</li>
+                    <li>✔ Fast, responsive support and long-term client relationships</li>
+                </ul>
+            </div>
+
+            <div class="about-box">
+                <h3>Our Team</h3>
+                <p>
+                    We are a partnership of finance and technology professionals committed to accuracy, ethics, and
+                    service excellence. We believe every client deserves expert support, no matter the size of their
+                    business.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section id="contact" class="quote-section">
+        <div class="container">
+            <h2>Request a Quote</h2>
+            <p>Let us know what service you’re interested in and we'll contact you shortly.</p>
+            <form id="my-form" class="quote-form" action="https://formspree.io/f/mwpbnawn" method="POST">
+                <div class="form-group">
+                    <label for="username">Your Name</label>
+                    <input type="text" name="username" required placeholder="Enter your name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" name="email" required placeholder="Enter your email address" />
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Required</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option>Accounting & Tax</option>
+                        <option>VAT & Compliance</option>
+                        <option>Payroll Management</option>
+                        <option>Company Registration</option>
+                        <option>Website Development</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Info</label>
+                    <textarea name="message" required placeholder="Enter additional information"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+                <p id="my-form-status"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <h3>Bhoyi Accountants</h3>
+                <p>Registration No: 2023/619819/07</p>
+                <p>Standerton, Mpumalanga</p>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:info@bhoyiaccountants.co.za">info@bhoyiaccountants.co.za</a></p>
+                <p>Tel: <a href="tel:+27171705903">+27 171 705 903</a></p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Bhoyi Accountants. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
